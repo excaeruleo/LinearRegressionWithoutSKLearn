@@ -1,2 +1,2 @@
 # LinearRegressionWithoutSKLearn
-Python project that does a linear regression of a set of data without sci-kit learn.
+Python project that does a linear regression of a set of data without sci-kit learn. The project mainly uses numpy to read the data, figure out the dimension of the data, create an array using only ones, concatenate the ones to X matrix, and create the y matrix. Matplotlib.pyplot is used to plot the data from the data file organized by numpy. Note the import of tkinter: this is to make sure that matplotlib is using the right back-end to graph the plots. If you are using a distribution system such as WSL or Ubuntu with a Python version that is not 3.9 or later, the plot of the data will not show. 
